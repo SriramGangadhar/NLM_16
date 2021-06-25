@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="OutputBuffer_synth_1" LaunchDir="E:/IP_Repo/NLM_16/NLM_16.runs/OutputBuffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-
