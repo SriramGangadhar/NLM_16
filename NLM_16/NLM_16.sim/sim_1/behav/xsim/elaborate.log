@@ -1,0 +1,54 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto b0c66881341243a88c75577a5efa4947 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package xil_defaultlib.nlmspackage
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.dflipflop [dflipflop_default]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=3,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=9,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_Delay [\Bit_Delay(depth=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=9,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_Delay [\Bit_Delay(depth=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.SPI [\SPI(width_in=17,depth=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.Two_Input_Sorter_Signed [\Two_Input_Sorter_Signed(width_i...]
+Compiling architecture behavioral of entity xil_defaultlib.Two_Input_Sorter_Signed_2 [\Two_Input_Sorter_Signed_2(width...]
+Compiling architecture behavioral of entity xil_defaultlib.Sorter_Group_Signed [\Sorter_Group_Signed(width_in=17...]
+Compiling architecture behavioral of entity xil_defaultlib.Sorter_5 [\Sorter_5(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Median_5 [\Median_5(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Block_MoM_StageIV [\Block_MoM_StageIV(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=7,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.Block_MoM_StageV [\Block_MoM_StageV(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=5,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.Sorter_4 [\Sorter_4(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Median_4 [\Median_4(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Block_MoM_StageVI [\Block_MoM_StageVI(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(width_count=3,maxcount=...]
+Compiling architecture behavioral of entity xil_defaultlib.SPI [\SPI(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Median_2 [\Median_2(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Block_MoM_StageVII [\Block_MoM_StageVII(width_in=17)...]
+Compiling architecture behavioral of entity xil_defaultlib.SPI [\SPI(width_in=17,depth=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Median_4_stageVIII [\Median_4_stageVIII(width_in=17)...]
+Compiling architecture behavioral of entity xil_defaultlib.Block_MoM [\Block_MoM(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.Find_Threshold [\Find_Threshold(width_in=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.exp_map [exp_map_default]
+Compiling architecture behavioral of entity xil_defaultlib.weight [weight_default]
+Compiling architecture behavioral of entity xil_defaultlib.one_pixel_final [one_pixel_final_default]
+Compiling architecture behavioral of entity xil_defaultlib.base [base_default]
+Compiling module xil_defaultlib.skidbuffer(OPT_LOWPOWER=1,OPT_OU...
+Compiling architecture behavioral of entity xil_defaultlib.AXI_wrap [axi_wrap_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_behav
