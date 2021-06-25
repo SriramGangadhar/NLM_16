@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  5 13:25:59 2020
+# Process ID: 5600
+# Current directory: E:/Sriram_VHDL/IP_Repo/NLM_16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11748 E:\Sriram_VHDL\IP_Repo\NLM_16\NLM_16.xpr
+# Log file: E:/Sriram_VHDL/IP_Repo/NLM_16/vivado.log
+# Journal file: E:/Sriram_VHDL/IP_Repo/NLM_16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Sriram_VHDL/IP_Repo/NLM_16/NLM_16.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_project
+open_project E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.xpr
+update_compile_order -fileset sources_1
+open_project E:/Sriram_VHDL/NLMStest2/NLMStest2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_project NLMdmahdmi
+open_bd_design {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.srcs/sources_1/bd/design_1/design_1.bd}
+close_bd_design [get_bd_designs design_1]
+file copy -force E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.sysdef E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk -hwspec E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk/design_1_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_hw
+open_project E:/Sriram_VHDL/hdmitest1/hdmitest1.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk -hwspec E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk/design_1_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Sriram_VHDL/hdmitest1/hdmitest1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+current_project NLMStest2
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_project NLMdmahdmi
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_hw
+current_project NLMStest2
+write_hwdef -force  -file E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk/design_1_wrapper.hdf
+launch_sdk -workspace E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk -hwspec E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk/design_1_wrapper.hdf
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:\Sriram_VHDL\NLMdmahdmi\NLMdmahdmi.runs\impl_1\design_1_wrapper.bit} [get_hw_devices xczu9_0]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tlast -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property CONTROL.TRIGGER_POSITION 5 [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_0/U0/net_slot_1_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]

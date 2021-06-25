@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Dec 24 11:05:17 2020
+# Process ID: 32552
+# Current directory: E:/Sriram_VHDL/IP_Repo/NLM_16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11256 E:\Sriram_VHDL\IP_Repo\NLM_16\NLM_16.xpr
+# Log file: E:/Sriram_VHDL/IP_Repo/NLM_16/vivado.log
+# Journal file: E:/Sriram_VHDL/IP_Repo/NLM_16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 24 11:07:35 2020...

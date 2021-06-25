@@ -1,0 +1,361 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  5 13:25:59 2020
+# Process ID: 5600
+# Current directory: E:/Sriram_VHDL/IP_Repo/NLM_16
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11748 E:\Sriram_VHDL\IP_Repo\NLM_16\NLM_16.xpr
+# Log file: E:/Sriram_VHDL/IP_Repo/NLM_16/vivado.log
+# Journal file: E:/Sriram_VHDL/IP_Repo/NLM_16\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Sriram_VHDL/IP_Repo/NLM_16/NLM_16.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Sriram/IP_Repo/NLM_16' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Sriram_VHDL/IP_Repo/NLM_16/NLM_16.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 794.059 ; gain = 105.582
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_project
+open_project E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Sriram/NLMdmahdmi' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Sriram_VHDL/IP_Repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:53 . Memory (MB): peak = 1418.152 ; gain = 587.656
+update_compile_order -fileset sources_1
+open_project E:/Sriram_VHDL/NLMStest2/NLMStest2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Sriram/NLMStest2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Sriram_VHDL/IP_Repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1418.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/synth/design_1.vhd
+VHDL Output written to : E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/sim/design_1.vhd
+VHDL Output written to : E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AXI_wrap_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+Exporting to file e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1.hwh
+Generated Block Design Tcl file e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/hw_handoff/design_1_axi_smc_1_bd.tcl
+Generated Hardware Definition File e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_1/bd_0/synth/design_1_axi_smc_1.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps8_0_99M .
+Exporting to file e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+Generated Block Design Tcl file e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0_bd.tcl
+Generated Hardware Definition File e:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block system_ila_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps8_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File E:/Sriram_VHDL/NLMStest2/NLMStest2.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+[Thu Nov  5 13:55:27 2020] Launched synth_1...
+Run output will be captured here: E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1580.652 ; gain = 162.500
+launch_runs impl_1 -jobs 4
+[Thu Nov  5 14:13:31 2020] Launched impl_1...
+Run output will be captured here: E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/runme.log
+current_project NLMdmahdmi
+open_bd_design {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.2 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:ip:v_hdmi_tx_ss:3.1 - v_hdmi_tx_ss_0
+Adding cell -- xilinx.com:ip:vid_phy_controller:2.2 - vid_phy_controller_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_100M
+Adding cell -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_300M
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding cell -- xilinx.com:user:AXI_wrap:1.0 - AXI_wrap_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /vid_phy_controller_0/txoutclk(undef) and /v_hdmi_tx_ss_0/link_clk(clk)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /vid_phy_controller_0/txoutclk(undef) and /vid_phy_controller_0/vid_phy_tx_axi4s_aclk(clk)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.srcs/sources_1/bd/design_1/design_1.bd>
+WARNING: [BD 41-1731] Type mismatch between connected pins: /v_hdmi_tx/s_axis_video_aresetn_out(undef) and /v_axi4s_vid_out/aresetn(rst)
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1647.004 ; gain = 66.352
+close_bd_design [get_bd_designs design_1]
+file copy -force E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.sysdef E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk -hwspec E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk -hwspec E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+open_hw_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2269.402 ; gain = 615.660
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2291.359 ; gain = 1.023
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+open_project E:/Sriram_VHDL/hdmitest1/hdmitest1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 2444.973 ; gain = 151.289
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk -hwspec E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk -hwspec E:/Sriram_VHDL/hdmitest1/hdmitest1.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+set_property PROGRAM.FILE {E:/Sriram_VHDL/hdmitest1/hdmitest1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+current_project NLMStest2
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Nov  5 15:01:49 2020] Launched impl_1...
+Run output will be captured here: E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/runme.log
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+current_project NLMdmahdmi
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 2469.445 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMdmahdmi/NLMdmahdmi.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2470.660 ; gain = 0.195
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+current_project NLMStest2
+write_hwdef -force  -file E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk/design_1_wrapper.hdf
+launch_sdk -workspace E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk -hwspec E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk -hwspec E:/Sriram_VHDL/NLMStest2/NLMStest2.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+set_property PROGRAM.FILE {E:\Sriram_VHDL\NLMdmahdmi\NLMdmahdmi.runs\impl_1\design_1_wrapper.bit} [get_hw_devices xczu9_0]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'design_1_i/system_ila_0/U0/ila_lib' at location 'uuid_E0698DBB7E4F5BCEA82CFC5D3D48BAA4' from probes file, since it cannot be found on the programmed device.
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2471.543 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tlast -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property CONTROL.TRIGGER_POSITION 5 [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:19:25
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2020-Nov-05 15:19:27
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:19:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Nov-05 15:19:27
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:19:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Nov-05 15:20:38
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/system_ila_0/U0/net_slot_0_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes design_1_i/system_ila_0/U0/net_slot_1_axis_tvalid -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:22:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Nov-05 15:22:08
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:22:12
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Nov-05 15:22:44
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A3BD6D
+INFO: [Labtools 27-1435] Device xczu9 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2508.477 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'design_1_i/system_ila_0/U0/ila_lib' at location 'uuid_E0698DBB7E4F5BCEA82CFC5D3D48BAA4' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'design_1_i/system_ila_0/U0/ila_lib' at location 'uuid_E0698DBB7E4F5BCEA82CFC5D3D48BAA4' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2020-Nov-05 15:47:04
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu9_0] -filter {CELL_NAME=~"design_1_i/system_ila_0/U0/ila_lib"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2020-Nov-05 15:47:18
+Processed interface AXI_wrap_0_M_AXIS_ila1_slot0
+Processed interface axi_dma_0_M_AXIS_MM2S_ila1_slot1
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Sriram_VHDL/NLMStest2/NLMStest2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {E:/Sriram_VHDL/NLMStest2/NLMStest2.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2510.523 ; gain = 0.582
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
